@@ -76,6 +76,15 @@ img.border {
 	border: 1px solid #E9E4D8;
 }
 
+table {
+    border: 1px solid black;
+}
+
+td {
+    height: 78px;
+    vertical-align: top;
+}
+
 /* Wrapper */
 
 #wrapper {
@@ -263,7 +272,8 @@ img.border {
 /* The only difference between Content and Content for Home Page is the width */
 #contentHome {
 	float: left;
-	width: 655px; /*935px;*/
+	/*width: 655px;*/ /*935px;*/
+	width: 935px;
 	padding: 0 24px 0 25px;
 	background: url(images/bg04.jpg) no-repeat 0 -335px;
 }
@@ -343,18 +353,22 @@ img.border {
 /* Sidebar */
 
 #sidebar {
-	float: right;
+	/*float: right;*/
+	float: left;
 	width: 246px;
-	padding: 24px 50px 0 0;
+	/*padding: 24px 50px 0 0;*/
+	padding: 24px 50px 0 24px;
 	background: url(images/bg04.jpg) no-repeat 100% -335px;
 }
 
 #sidebar ul {
 	margin: 0;
-	padding: 0 0 0 25px;
+	/*padding: 0 0 0 25px;*/
+	padding: 0 25px 0 0;
 	list-style: none;
 	line-height: normal;
-	border-left: 1px solid #E5E1D8;
+	/*border-left: 1px solid #E5E1D8;*/
+	border-right: 1px solid #E5E1D8;
 }
 
 #sidebar li {
